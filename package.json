@@ -101,6 +101,9 @@
     "qs": "^6.11.0",
     "range-parser": "^1.2.1",
     "raw-body": "^2.5.2",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.4.0",
+    "react-router-dom": "^7.1.1",
     "readdirp": "^3.6.0",
     "safe-buffer": "^5.2.1",
     "safer-buffer": "^2.1.2",
@@ -137,7 +140,9 @@
     "nodemon": "^3.1.9"
   },
   "scripts": {
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "start": "node backend/server.js",
+    "build": " npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "type": "module",
   "keywords": [],
