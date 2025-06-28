@@ -1,0 +1,56 @@
+# 💬 Real-Time Chat App
+
+A full-stack real-time chat application built with the **MERN stack** (MongoDB, Express.js, React, Node.js), using **Socket.IO** for instant messaging and **MVC architecture** for clean project structure.
+
+## 📌 Features
+
+- 🔐 **User Authentication**
+  - Register & login with JWT-based authentication
+  - Passwords securely hashed with bcrypt
+
+- 💬 **Real-Time Messaging**
+  - Instant chat powered by Socket.IO
+  - Online user tracking
+
+- 👥 **One-to-One Chat**
+  - Create personal conversations
+  - Chat history stored in MongoDB
+
+- 📄 **MVC Architecture**
+  - Clean separation of concerns: Models, Controllers, Routes
+
+- 🧭 **Modern UI**
+  - React + Tailwind CSS (or your preferred framework)
+  - Responsive design for mobile and desktop
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+- React.js
+- Axios
+- Socket.IO client
+
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- Socket.IO
+- JWT & Bcrypt
+- MVC Architecture
+
+## 🗂️ Project Structure
+
+```bash
+📁 client/
+  ├── src/
+      ├── components/
+      ├── pages/
+      ├── context/
+      ├── services/
+📁 server/
+  ├── controllers/
+  ├── models/
+  ├── routes/
+  ├── utils/
+  ├── config/
+  └── server.js
